@@ -1,0 +1,16 @@
+﻿planner_node:
+  ros__parameters:
+    grid_size: 400
+    resolution: 0.05
+    obstacle_inflate: 1
+    replan_period: 1.0
+    use_tf: true
+    goal_tolerance: 0.15
+
+controller_node:
+  ros__parameters:
+    lookahead: 0.6
+    max_linear: 0.4
+    max_angular: 1.2
+    stop_distance: 0.25
+    control_rate: 10.0

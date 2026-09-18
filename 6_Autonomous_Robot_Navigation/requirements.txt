@@ -1,0 +1,11 @@
+﻿# Algorithm core (grid / A* / pure pursuit) + offline tests run with pure Python.
+numpy>=1.24.0
+matplotlib>=3.7.0
+pytest>=7.4.0
+
+# ROS2 (rclpy, sensor_msgs, nav_msgs, tf2) is NOT a pip package.
+# Install with your ROS2 distro, e.g.:
+#   sudo apt install ros-humble-desktop
+# Then:
+#   mkdir -p ~/ros2_ws/src && cp -r . ~/ros2_ws/src/autonomous_nav
+#   cd ~/ros2_ws && colcon build && source install/setup.bash
